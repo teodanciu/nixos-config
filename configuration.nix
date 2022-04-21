@@ -28,8 +28,6 @@
   };
 
   hardware.cpu.intel.updateMicrocode= true;
-  #### TODO: TRY
-  hardware.video.hidpi.enable = false;
 
   # Use the systemd-boot EFI boot loader.
   boot.loader = {
@@ -102,7 +100,8 @@
       };
     };
 
-    dpi = 144;
+    # affects the login screen
+    dpi = 200;
   };
 
   # See https://nixos.wiki/wiki/I3 on saving settings for some applications, like Firefox

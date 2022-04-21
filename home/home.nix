@@ -87,7 +87,7 @@
         {
           inherit modifier;
           menu =
-            "${pkgs.rofi}/bin/rofi -only-match -show-icons -combi-modi window#drun -show combi -modi combi#window#run";
+            "${pkgs.rofi}/bin/rofi -only-match -show-icons -combi-modi window#drun -show combi -modi combi#window#run -font 'Fira Code 25'";
 
           terminal = "${pkgs.alacritty}/bin/alacritty";
 
@@ -116,7 +116,7 @@
   };
 
   xresources.properties = {
-    "Xft.dpi" = 144;
+    "Xft.dpi" = 180;
   };
 
   programs = {
@@ -161,7 +161,7 @@
     rofi = {
       enable = true;
       location = "center";
-      theme = "Adapta-Nokto";
+      theme = "Arc-Dark";
     };
     vscode = {
       enable = true;
