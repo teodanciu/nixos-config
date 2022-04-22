@@ -25,6 +25,7 @@
     inetutils
     ispell
     killall
+    libgnome-keyring
     lsof
     mosh
     networkmanager

@@ -76,6 +76,9 @@
   services.fwupd.enable = true;
   services.lorri.enable = true;
 
+  # vscode account doesn't work without this
+  services.gnome.gnome-keyring.enable = true;
+
   # Necessary even though activated in Home Manager
   programs.gnupg.agent.enable = true;
 
