@@ -128,6 +128,7 @@
       "networkmanager" # Enable changing network settings like wifi
       "docker" # Enable using Docker
       "users" # Control users
+      "video" # To be able to use light
     ];
     # shell = ..
   };
